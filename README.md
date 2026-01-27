@@ -19,7 +19,7 @@ adversarial_prompt_generator/
 │
 ├── requirements.txt
 └── README.md
-```
+
 Script Ideology
 ┌────────────────────────┐
 │  Attack Category Spec  │  ← structured taxonomy
