@@ -1,6 +1,6 @@
-AI-Prompt-Red-teamer
-This repo majorly focuses on the generation of Adversial prompt injection / jailbreak prompts.
-It is a Python-based system design + reference implementation that can automatically generate diverse, category-specific jailbreak / prompt-injection prompts for red-teaming, detector training, and eval corpora expansion
+AI-Prompt-Red-teamer  
+This repo majorly focuses on the generation of Adversial prompt injection / jailbreak prompts.  
+It is a Python-based system design + reference implementation that can automatically generate diverse, category-specific jailbreak / prompt-injection prompts for red-teaming, detector training, and eval corpora expansion  
 
 ```
 Script Structure
