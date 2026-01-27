@@ -1,0 +1,12 @@
+
+IF USING Sentence_Transformer for Diversity filtering
+Use Python 3.10
+
+Install VC++ Redistributable
+
+Reinstall Torch using CPU wheels
+
+Avoid mixing Conda + pip
+
+IF NOT USING Sentence_Transformer for Diversity filtering
+MY suggestion ;). Dont use Sentence_Transformers for simplicity use Scikit or Difflib for the diversity filter
