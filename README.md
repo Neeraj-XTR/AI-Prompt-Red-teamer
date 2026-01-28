@@ -21,26 +21,9 @@ adversarial_prompt_generator/
 └── README.md
 
 Script Ideology
-┌────────────────────────┐
-│  Attack Category Spec  │  ← structured taxonomy
-└──────────┬─────────────┘
-           ↓
-┌────────────────────────┐
-│  Attack Strategy Bank  │  ← tactics, primitives, patterns
-└──────────┬─────────────┘
-           ↓
-┌────────────────────────┐
-│  Prompt Template Engine│  ← parametric adversarial templates
-└──────────┬─────────────┘
-           ↓
-┌────────────────────────┐
-│  Variation & Mutation  │  ← paraphrase, obfuscation, role-play
-└──────────┬─────────────┘
-           ↓
-┌────────────────────────┐
-│  Diversity Scoring     │  ← semantic + lexical diversity
-└──────────┬─────────────┘
-           ↓
-┌────────────────────────┐
-│  Output Generator      │  ← JSON / CSV / corpus
-└────────────────────────┘
+Attack Category Spec ← structured taxonomy
+Attack Strategy Bank ← tactics, primitives, patterns
+Prompt Template Engine ← parametric adversarial templates
+Variation & Mutation ← paraphrase, obfuscation, role-play
+Diversity Scoring ← semantic + lexical diversity
+Output ← JSON / CSV / corpus
