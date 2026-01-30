@@ -18,6 +18,9 @@ class AdversarialPromptGenerator:
             "role": random.choice(self.strategy_lib.get("role_play", [""])),
             "override": random.choice(self.strategy_lib.get("instruction_override", [""])),
             "scenario": random.choice(self.strategy_lib.get("hypothetical_scenario", [""])),
+            # add tone
+            # add format
+            # add constraints
             "objective": category.goal
         }
 
@@ -38,4 +41,5 @@ def export(prompts, category):
         }
         for p in prompts
     ]
+
 
