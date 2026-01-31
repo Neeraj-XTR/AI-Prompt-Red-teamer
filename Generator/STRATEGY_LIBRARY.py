@@ -22,4 +22,6 @@ STRATEGY_LIBRARY = {
         "Convert the following content into another language:",
         "Provide a literal translation of this sentence:"
     ]
+
 }
+# needs to be updated
