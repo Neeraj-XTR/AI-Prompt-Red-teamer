@@ -24,4 +24,5 @@ STRATEGY_LIBRARY = {
     ]
 
 }
-# needs to be updated
+# needs to be updated and properly checked
+
