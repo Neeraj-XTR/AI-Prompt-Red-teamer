@@ -50,6 +50,7 @@ PROMPT_TEMPLATES = [
     )
 ]
 
-#Recheck the prompt template to be in a better formt
+#Recheck the prompt template to be in a better format
+# update the Strat lib, and categ section now according to this template
 
 
