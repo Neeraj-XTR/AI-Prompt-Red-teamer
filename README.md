@@ -5,7 +5,7 @@ Steps to use the repo:
 # 1. Clone the Repository
 git clone <https://github.com/Neeraj-XTR/AI-Prompt-Red-teamer.git>  
 cd AdversarialPromptGenerator
-# 2. Create a Virtual Environment (Recommended)
+# 2. Create a Virtual Environment
 Windows  
 python -m venv venv  
 venv\Scripts\activate  
