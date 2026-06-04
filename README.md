@@ -18,6 +18,7 @@ generator/CATEGORIES.py
 python main.py --category system_prompt_exfiltration --num-prompts 100
 # 6. Review generated file
 outputs/system_prompt_exfiltration_<timestamp>.json  
+
 This workflow will generate a diverse set of adversarial prompts that can be used for red-team evaluations, safety testing, detector training, and benchmark dataset creation.
 ```
 REPO Structure
