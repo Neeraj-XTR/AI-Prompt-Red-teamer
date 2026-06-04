@@ -17,7 +17,6 @@ adversarial_prompt_generator/
 ├── outputs/
 │   └── .gitkeep
 │
-├── pyproject.toml
 ├── requirements.txt
 └── README.md
 
