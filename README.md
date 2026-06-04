@@ -6,18 +6,18 @@ It is a Python-based system design + reference implementation that can automatic
 git clone <https://github.com/Neeraj-XTR/AI-Prompt-Red-teamer.git>  
 cd AdversarialPromptGenerator
 # 2. Create a Virtual Environment (Recommended)
-Windows
-python -m venv venv
-venv\Scripts\activate
+Windows  
+python -m venv venv  
+venv\Scripts\activate  
 # 3. Install dependencies
 pip install -r requirements.txt
 # 4. View Available Attack Categories
-Open the file:
+Open the file:  
 generator/CATEGORIES.py
 # 5. Generate prompts
 python main.py --category system_prompt_exfiltration --num-prompts 100
 # 6. Review generated file
-outputs/system_prompt_exfiltration_<timestamp>.json
+outputs/system_prompt_exfiltration_<timestamp>.json  
 This workflow will generate a diverse set of adversarial prompts that can be used for red-team evaluations, safety testing, detector training, and benchmark dataset creation.
 ```
 REPO Structure
