@@ -18,10 +18,10 @@ class AdversarialPromptGenerator:
             "role": random.choice(self.strategy_lib.get("role_play", [""])),
             "override": random.choice(self.strategy_lib.get("instruction_override", [""])),
             "scenario": random.choice(self.strategy_lib.get("hypothetical_scenario", [""])),
-            # add tone
-            # add format
-            # add constraints
-            "objective": category.goal
+            "constraints": random.choice(self.strategy_lib.get("constraints", [""])),
+            "tone": random.choice(self.strategy_lib.get("tone", [""])),
+            "format": random.choice(self.strategy_lib.get("output_format", [""])),
+            "objective": random.choice(category.goal)
         }
 
         template = random.choice(self.templates)
@@ -29,17 +29,3 @@ class AdversarialPromptGenerator:
 
     def generate_batch(self, category_name: str, n: int = 10):
         return [self.generate_prompt(category_name) for _ in range(n)]
-
-
-def export(prompts, category):
-    return [
-        {
-            "category": category,
-            "prompt": p,
-            "attack_type": "jailbreak",
-            "confidence": "high"
-        }
-        for p in prompts
-    ]
-
-
